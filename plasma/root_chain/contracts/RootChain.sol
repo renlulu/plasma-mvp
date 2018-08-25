@@ -102,6 +102,18 @@ contract RootChain {
 
 
     /*
+    ** Callback Function
+    ** Allow people deposit by using  metamask
+    */
+    
+    function()
+    public
+    payable
+    {
+        deposit();
+    }
+
+    /*
      * Public Functions
      */
 
